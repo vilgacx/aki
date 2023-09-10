@@ -54,4 +54,4 @@ pick any element that you wanna make **aki-ed** and add two attributes: `url` (t
 ![akitest.gif](./static/akitest.gif)
 
 ## LICENSE
-aki is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
+aki is released under the BSD-2-Clause License. See the [LICENSE](LICENSE) file for more information.
