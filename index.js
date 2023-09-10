@@ -5,7 +5,9 @@ window.onload = () => {
       fetch(attr.url.value)
         .then((response) => response.json())
         .then((data) => {
-          document.querySelector(attr.target.value)[data.change] = data.value;
+          data.change.forEach((chan,index) => {
+            (typeof(data.target) === "string") ? document.querySelector(data.target)[chan] = data.value[index] : document.querySelector(data.target[index])[chan] = data.value[index];
+          }); 
         })
     }
   });
