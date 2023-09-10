@@ -5,21 +5,21 @@
 
 a little hypermedia framework that is super tiny and very simple to use no bs.
 
-### installation
+## installation
 just copy the contents from `https://raw.githubusercontent.com/vilgacx/aki/main/index.min.js` and then use it as `aki.js`
 
-##### simplest way to install (using curl):
+#### simplest way to install (using curl):
 ```
 curl https://raw.githubusercontent.com/vilgacx/aki/main/index.min.js > aki.js
 ```
 
-### setup
+## setup
 ```html
 <script src="<path>/aki.js"></script>
 ```
 *(that's it)*
 
-### how to use ?
+## how to use ?
 pick any element that you wanna make **aki-ed** and add two attributes: `url` (the GET url) and `fn` (the type of function on which things will implemented [for e.g.: onclick, onfocus]).
 
 ```html
@@ -52,3 +52,6 @@ pick any element that you wanna make **aki-ed** and add two attributes: `url` (t
 }
 ```
 ![akitest.gif](./static/akitest.gif)
+
+## LICENSE
+aki is released under the MIT License. See the [LICENSE](LICENSE) file for more information.
