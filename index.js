@@ -5,10 +5,12 @@ window.onload = () => {
       fetch(attr.url.value)
         .then((response) => response.json())
         .then((data) => {
-          data.change.forEach((chan,index) => {
-            (typeof(data.target) === "string") ? document.querySelector(data.target)[chan] = data.value[index] : document.querySelector(data.target[index])[chan] = data.value[index];
-          }); 
+          Object.keys(data).forEach((ele) => {
+            Object.entries(data[ele]).forEach((chan) => {
+              document.querySelector(ele)[chan[0]] = chan[1];
+            });
+          });
         })
-    }
+    };
   });
-}
+};
