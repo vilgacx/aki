@@ -46,7 +46,7 @@ pick any element that you wanna make **aki-ed** and add two attributes: `url` (t
 ```json
 {
   "h1": {
-    "style": "color:gray;",
+    "style": "color:navy;",
     "innerText": "you have been aki-ed"
   },
 }
