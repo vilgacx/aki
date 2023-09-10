@@ -30,13 +30,13 @@ pick any element that you wanna make **aki-ed** and add two attributes: `url` (t
 ##### to response to a action, on server side the response structure should look like this:
 ```json
 {
-  'element-selector-1': {
-    'property-1-1': 'value-1-1',
-    'property-1-n': 'value-1-n'
+  "element-selector-1": {
+    "property-1-1": "value-1-1",
+    "property-1-n": "value-1-n"
   },
   'element-selector-n': {
-    'property-n-1': 'value-n-1',
-    'property-n-i': 'value-n-i'
+    "property-n-1": "value-n-1",
+    "property-n-i": "value-n-i"
   }
 }
 ```
@@ -45,9 +45,9 @@ pick any element that you wanna make **aki-ed** and add two attributes: `url` (t
 
 ```json
 {
-  'h1': {
-    'style': 'color:gray;',
-    'innerText': 'you have been aki-ed'
+  "h1": {
+    "style": "color:gray;",
+    "innerText": "you have been aki-ed"
   },
 }
 ```
