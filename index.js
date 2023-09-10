@@ -1,5 +1,5 @@
 window.onload = () => {
-  document.querySelectorAll('[target][url][fn]').forEach((element) => {
+  document.querySelectorAll('[url][fn]').forEach((element) => {
     const attr = element.attributes;
     element[attr.fn.value] = () => {
       fetch(attr.url.value)
