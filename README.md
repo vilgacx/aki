@@ -1,7 +1,7 @@
 # aki
 ***welp, htmx is bloat***<br>
 
-**minified (~265 B)**<br>
+**minified (~270 B)**<br>
 
 a little hypermedia framework that is super tiny and very simple to use no bs.
 

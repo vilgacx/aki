@@ -5,9 +5,9 @@ window.onload = () => {
       fetch(attr.url.value)
         .then((response) => response.json())
         .then((data) => {
-          Object.keys(data).forEach((ele) => {
-            Object.entries(data[ele]).forEach((chan) => {
-              document.querySelector(ele)[chan[0]] = chan[1];
+          Object.entries(data).forEach((ele) => {
+            Object.entries(ele[1]).forEach((chan) => {
+              document.querySelector(ele[0])[chan[0]] = chan[1];
             });
           });
         })
