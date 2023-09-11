@@ -1,5 +1,5 @@
 # aki
-***welp htmx is bloat***<br>
+***welp, htmx is bloat***<br>
 
 **minified (~265 B)**<br>
 
