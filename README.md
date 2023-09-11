@@ -1,9 +1,9 @@
 # aki
 ***welp, htmx is bloat***<br>
 
-**minified (~270 B)**<br>
+**(minified ~270 B)**<br>
 
-a little hypermedia framework that is super tiny and very simple to use no bs.
+a little html based framework that is super tiny and very simple to use no bs.
 
 ## installation
 just copy the contents from `https://raw.githubusercontent.com/vilgacx/aki/main/index.min.js` and then use it as `aki.js`
