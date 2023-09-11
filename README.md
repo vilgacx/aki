@@ -32,7 +32,7 @@ pick any element that you wanna make **aki-ed** and add two attributes: `url` (t
 {
   "element-selector-1": {
     "property-1-1": "value-1-1",
-    "property-1-n": "value-1-n"
+    "property-1-m": "value-1-m"
   },
   "element-selector-n": {
     "property-n-1": "value-n-1",
